@@ -6,6 +6,10 @@ Two input modes are supported:
   2. PDF pages: pass --pdf and each converted page is sent as one request.
 """
 
+import utils.clients
+import utils.http_session
+import utils.transport
+import utils.session
 import argparse
 import base64
 import json
